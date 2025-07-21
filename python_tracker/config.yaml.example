@@ -1,0 +1,16 @@
+# Copy this file to config.yaml and fill in your values.
+# This config.yaml file SHOULD NOT be committed to GitHub.
+
+# Get your development API key from https://developer.riotgames.com/
+riot_api_key: "RGAPI-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Game server region (e.g., euw1, na1, kr)
+region: "euw1"
+
+# List of players to track.
+# Replace "PlayerName" with a nickname of your choice.
+# Replace "puuid-of-the-player" with their actual PUUID.
+# You can find a player's PUUID using various online services.
+players:
+  PlayerName1: "puuid-of-the-player-1"
+  PlayerName2: "puuid-of-the-player-2"
